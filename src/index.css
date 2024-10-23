@@ -1,0 +1,24 @@
+/* Add styles for the app layout */
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 60%; /* Set a smaller width for the app */
+    margin: 0 auto; /* Center the app horizontally */
+}
+
+.title {
+    margin: 10px; /* Add some margin for spacing */
+}
+
+.navbar {
+    width: 100%; /* Make navbar full width */
+}
+
+.navbar .links a {
+    margin-right: 10px; /* Add some margin between links */
+}
+
+.content {
+    margin-top: 20px; /* Space between navbar and content */
+    border: 1px solid #6d6161; /* Add a border around the content */
+}
